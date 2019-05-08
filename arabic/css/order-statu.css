@@ -1,0 +1,201 @@
+body {
+	overflow-x: hidden
+}
+
+/*start bread crumb*/
+.breadcrumb .arrest-bread {
+	position: relative;
+	top: 18px;
+	font-size: 14px;
+}
+
+.breadcrumb-item + .breadcrumb-item {
+	padding-left: .5rem;
+	position: relative;
+	top: 16px;
+	font-size: 14px;
+}
+
+.breadcrumb-item + .breadcrumb-item a {
+	color: #444;
+	font-weight: 500;
+	text-decoration: none;
+}
+
+/*end bread crumb*/
+/*start statu card  */
+.order-statu .order-statu-card {
+	background-color: #f7f7f7;
+	border: 1px solid #d5d5d5;
+	margin-bottom: 18px;
+	box-shadow: 2px 2px 16px #e4e2e2, -2px -2px 12px #e4e2e2;
+	padding: 20px;
+}
+
+.order-statu .order-statu-card img {
+	border: 3px solid #fff;
+	border-radius: 5px;
+}
+
+.order-statu .order-statu-card .statu h5:first-child {
+	font-weight: 400;
+	color: #4c4c4c;
+	font-size: 17px;
+}
+
+.order-statu .order-statu-card .statu h5 {
+	color: #111d37;
+	font-size: 19px;
+}
+
+.order-statu .order-statu-card .scale {
+	margin-top: 28px;
+	margin-left: 13px;
+}
+
+.order-statu .order-statu-card .statu img {
+	background-color: #331c64;
+	padding: 8px 6px;
+	border-radius: 50%;
+	display: inline-block;
+	position: relative;
+	z-index: 9;
+	height: 34px;
+}
+
+.order-statu .order-statu-card .statu img.done {
+	background-color: #331c64;
+}
+
+.order-statu .order-statu-card .statu img.waiting {
+	background-color: #828282;
+}
+
+.order-statu .order-statu-card .statu .done-state::after {
+	content: "";
+	width: 150px;
+	height: 4px;
+	background-color: #331c64;
+	display: inline-block;
+	position: relative;
+	left: -6px;
+
+}
+
+.order-statu .order-statu-card .statu .in-processing {
+	position: relative;
+	left: 25px;
+}
+
+.order-statu .order-statu-card .statu .waiting-state::after {
+	content: "";
+	width: 150px;
+	height: 4px;
+	background-color: #828282;
+	display: inline-block;
+	position: relative;
+	left: -6px;
+}
+
+.order-statu .order-statu-card .statu .shipping {
+	position: relative;
+	left: 15px;
+}
+
+.order-statu .order-statu-card .statu .step {
+	float: left
+}
+
+.order-statu .order-statu-card .statu .deliverd {
+	position: relative;
+	left: 8px;
+}
+
+.order-statu .order-statu-card .statu .step h6 {
+	margin-top: 9px;
+	color: #4c4c4c;
+	font-weight: 400;
+}
+
+.order-statu .order-statu-card .statu .step h6.deliverd-title {
+	margin-left: -7px;
+}
+
+.order-statu .order-statu-card .statu .product-info {
+	margin-top: 20px
+}
+
+.order-statu .order-statu-card .statu .product-info h6 span:first-child {
+	color: #4c4c4c;
+	font-weight: 400;
+	margin-right: 15px
+}
+
+.order-statu .order-statu-card .statu .product-info h6 span:last-child {
+	color: #444;
+	font-weight: 500;
+	margin-right: 15px
+}
+
+.order-statu .order-statu-card .statu .product-info h6:last-of-type {
+	color: #444;
+	font-weight: 400
+}
+
+@media(max-width:952px) {
+	.order-statu .order-statu-card .scale {
+		margin-left: 0
+	}
+
+}
+
+@media(max-width:930px) {
+
+	.order-statu .order-statu-card .statu .waiting-state::after,
+	.order-statu .order-statu-card .statu .done-state::after {
+		width: 110px
+	}
+
+	.order-statu .order-statu-card .statu .step h6 {
+		font-size: 15px;
+	}
+}
+
+@media(max-width:777px) {
+
+	.order-statu .order-statu-card .statu .waiting-state::after,
+	.order-statu .order-statu-card .statu .done-state::after {
+		width: 105px;
+	}
+}
+
+@media(max-width:436px) {
+
+	.order-statu .order-statu-card .statu .waiting-state::after,
+	.order-statu .order-statu-card .statu .done-state::after {
+		width: 90px;
+	}
+}
+
+@media(max-width:375px) {
+
+	.order-statu .order-statu-card .statu .waiting-state::after,
+	.order-statu .order-statu-card .statu .done-state::after {
+		width: 80px;
+	}
+}
+
+@media(max-width:320px) {
+
+	.order-statu .order-statu-card .statu .waiting-state::after,
+	.order-statu .order-statu-card .statu .done-state::after {
+		width: 55px;
+	}
+
+	.order-statu .order-statu-card .statu .step h6 {
+		font-size: 14px;
+	}
+
+}
+
+/*end statu card  */

@@ -1,0 +1,12 @@
+.chech-out .container .title-img {
+	background-image: url(../image/arabic/3.png);
+}
+.shipping-info {
+	text-align: right;
+}
+.chech-out .size {
+    margin-right: 10px;
+}
+.chech-out .payment-methode .the-methode {
+    padding: 0px 15px 15px 6px;
+}

@@ -1,0 +1,155 @@
+body {
+	font-family: 'Cairo', sans-serif;
+}
+
+/*start navbar*/
+.navbar {
+	direction: ltr
+}
+
+.navbar-brand img {
+	position: relative;
+	z-index: 999;
+}
+
+.navbar-expand-md .navbar-nav {
+	right: 50px;
+}
+
+@media(max-width:767px) {
+	.navbar-expand-md .navbar-nav {
+		right: 0px;
+	}
+}
+
+/*end navbar*/
+
+/*start category*/
+.categories .inner-categories .tiny-shirt {
+	background-image: url(../image/arabic/6.png);
+}
+
+@media(max-width:767px) {
+	.categories .inner-categories .small-title {
+		background-image: url(../image/arabic/6.png);
+	}
+}
+
+/*end category*/
+
+/*start shop*/
+.shop .img-title {
+	background-image: url(../image/arabic/11.png);
+}
+
+.card-body .card-title,
+.card-body .price {
+	direction: rtl
+}
+
+@media(min-width:1200px) {
+	.shop .container {
+		max-width: 1250px
+	}
+}
+
+.best-offer .b-off-box {
+	background-image: url(../image/arabic/16.png);
+}
+/*end shop*/
+/*start subscribe and footer*/
+.subscribe,
+.footer {
+	direction: rtl
+}
+
+.input-group > .form-control:not(:last-child) {
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
+.input-group > .input-group-append > .input-group-text {
+	border-radius: 20px;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+.input-group > .form-control:not(:last-child) {
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+}
+
+.subscribe h5,
+.subscribe p {
+	text-align: right
+}
+
+.subscribe .right-section img {
+	right: 16%;
+}
+
+footer .content {
+	direction: rtl
+}
+
+.footer h4 {
+	text-align: right
+}
+
+.footer ul li {
+	text-align: right;
+	margin-left: 0;
+	margin-right: 10px
+}
+
+.footer .copyRight img {
+	height: 50px;
+	float: right;
+}
+
+.footer .copyRight span {
+	text-align: right;
+	right: 14px;
+	display: block;
+	top: 23px
+}
+
+@media (max-width: 575px) {
+	.footer .copyRight .visa {
+		right: auto;
+		left: 50px;
+	}
+
+	.footer .copyRight img {
+		height: 50px;
+		float: none;
+		display: block;
+		margin: auto;
+	}
+
+	.footer .copyRight span {
+		position: static;
+		text-align: center;
+		margin-top: 12px;
+	}
+}
+
+@media (max-width: 375px) {
+	.footer .copyRight .visa {
+		right: auto;
+		left: 25px;
+		width: 100px;
+		top: -183px;
+	}
+}
+
+@media (max-width: 320px) {
+	.footer .copyRight .visa {
+		right: auto;
+		left: 12px;
+		width: 90px;
+		top: -205px;
+	}
+}
+
+/*end subscribe and footer*/

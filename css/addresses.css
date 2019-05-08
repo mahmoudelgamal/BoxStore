@@ -1,0 +1,38 @@
+/*start addresses*/
+.addresses .addresses-table {
+	background-color: #f7f7f7;
+	border: 1px solid #d5d5d5;
+	margin-bottom: 18px;
+	box-shadow: 2px 2px 16px #e4e2e2, -2px -2px 12px #e4e2e2;
+	padding-bottom: 33px;
+}
+
+.addresses .header {
+	padding: 30px 10px 9px;
+	border-bottom: 1px solid #b5b5b5;
+	color: #381f6f;
+}
+
+.addresses .header h5 {
+	font-size: 20px;
+	font-weight: 400;
+	letter-spacing: -.5px;
+}
+
+.addresses .addresses-table .body {
+	padding: 20px;
+	font-size: 15px;
+	color: #444;
+}
+
+.addresses .addresses-table .body button {
+	color: #fff;
+	background-color: #111d37;
+	border: 3px solid #fff;
+	border-radius: 8px;
+	font-size: 14px;
+	padding: 4px 8px;
+	margin-top: 20px;
+}
+
+/*end addresses*/

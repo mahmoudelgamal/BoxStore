@@ -1,0 +1,48 @@
+.order-statu .order-statu-card .statu {
+	text-align: right
+}
+
+.order-statu .order-statu-card .statu .step {
+	float: right;
+}
+
+.order-statu .order-statu-card .statu .in-processing {
+	right: 25px;
+}
+
+.order-statu .order-statu-card .statu .done-state::after {
+	right: -6px;
+}
+
+.order-statu .order-statu-card .statu .step h6 {
+	text-align: right;
+}
+
+.order-statu .order-statu-card .statu .shipping {
+	right: 15px;
+}
+
+.order-statu .order-statu-card .statu .waiting-state::after {
+	right: -2px;
+}
+
+.order-statu .order-statu-card .statu .deliverd {
+	right: 10px;
+}
+
+.order-statu .order-statu-card .statu .step h6.deliverd-title {
+	margin-right: -7px;
+}
+
+.order-statu .order-statu-card .statu .product-info {
+	text-align: right
+}
+
+.order-statu .order-statu-card .statu .product-info h6:last-of-type {
+	margin-right: 14px;
+}
+@media(max-width:767px) {
+	.order-statu .order-statu-card .statu {
+		margin-top: 21px;
+	}
+}

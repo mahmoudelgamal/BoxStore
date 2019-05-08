@@ -1,0 +1,40 @@
+/*start bread crumb*/
+
+.breadcrumb {
+	background-color: #f2f2f2;
+	margin-top: 30px;
+}
+
+.breadcrumb .arrest-bread {
+	color: #111d37;
+	font-weight: 500
+}
+
+/*end bread crumb*/
+/*start search resault page*/
+.search-resault .title h4 {
+	color: #676767;
+	text-align: center;
+	font-size: 21px;
+	font-weight: 400;
+	margin-top: 32px;
+}
+
+/*start resault box*/
+.search-esault .resault-box {
+	background-color: #f7f7f7;
+	border: 2px solid #d5d5d5;
+	padding: 15px;
+	border-radius: 3px;
+	margin-bottom: 18px;
+	box-shadow: 2px 2px 16px #e4e2e2, -2px -2px 12px #e4e2e2;
+}
+.shop {
+	background-color: transparent
+}
+.shop .card {
+    border-radius: 0;
+    margin-bottom: 20px;
+}
+/*end resault box*/
+/*end resault search page*/

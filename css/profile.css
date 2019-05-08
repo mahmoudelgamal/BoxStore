@@ -1,0 +1,121 @@
+/*start bread crumb*/
+
+.breadcrumb {
+	background-color: #f2f2f2;
+	margin-top: 30px;
+}
+
+.breadcrumb .arrest-bread {
+	color: #111d37;
+	font-weight: 500
+}
+
+/*end bread crumb*/
+/*start profile*/
+.profile .title {
+	background-image: url(../image/profile.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 40px;
+	display: block;
+	margin: 30px auto 15px;
+}
+
+.profile .profile-container .edit-info {
+	background-color: #f7f7f7;
+	border: 1px solid #d5d5d5;
+	margin-bottom: 18px;
+	box-shadow: 2px 2px 16px #e4e2e2, -2px -2px 12px #e4e2e2;
+	padding: 20px;
+	padding-bottom: 50px;
+}
+
+.profile .profile-container .edit-info h5 {
+	color: #331c64;
+	margin-bottom: 10px;
+    text-shadow: 2px 2px 2px #efefef;
+}
+
+.profile .profile-container .edit-info h5 a {
+	color: #331c64;
+	font-weight: 300
+}
+
+.profile .profile-container .edit-info h5 span {
+	font-weight: 300;
+}
+
+.profile .profile-container .edit-info p {
+	color: #454b5b;
+	font-size: 14px;
+}
+
+.profile .profile-container .edit-info input {
+	display: block;
+	margin-bottom: 15px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	height: 32px;
+	text-indent: 6px;
+	width: 96%
+}
+
+.profile .profile-container .edit-info input.s-size {
+	width: 40%
+}
+
+.profile .profile-container .edit-info button {
+	color: #fff;
+	background-color: #111d37;
+	border: 3px solid #fff;
+	border-radius: 8px;
+	font-size: 14px;
+	padding: 4px 8px;
+}
+
+/*start dashboard*/
+.profile .dashboard {
+	background-color: #f7f7f7;
+	border: 1px solid #d5d5d5;
+	margin-bottom: 18px;
+	box-shadow: 2px 2px 16px #e4e2e2, -2px -2px 12px #e4e2e2;
+	padding-bottom: 33px;
+}
+
+.profile .dashboard img {
+	display: block;
+	margin: 20px auto;
+	height: 82px;
+}
+
+.profile .dashboard ul li {
+	text-align: center;
+	border-bottom: 2px solid #ddd;
+	padding: 6.5px;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.profile .dashboard ul a {
+	text-decoration: none;
+	color: #111d37;
+	transition: all ease-in-out .2s
+}
+
+.profile .dashboard ul a:hover {
+	color: #e1a10c;
+}
+
+.profile .dashboard ul li:last-child {
+	border-bottom: 0
+}
+
+.profile .dashboard ul a.active {
+	font-size: 21px;
+	color: #e1a10c;
+	font-weight: 500;
+}
+
+/*end dashboard*/
+/*end profile*/

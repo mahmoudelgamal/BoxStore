@@ -1,0 +1,42 @@
+/*start breadcrumb*/
+.breadcrumb .img {
+	background-image: url(../image/arabic/4.png);
+}
+/*end breadcrumb*/
+
+/*start product info*/
+.product .product-box ,
+.product .product-info .p-name,
+.product .product-info .p-price {
+    text-align: right;
+}
+.product .p-footer-info button.facebook ,
+.product .p-footer-info button.twitter {
+    direction: ltr;
+}
+.product .product-footer button {
+    font-size: 12px;
+}
+.product .info-describe ul li:last-child {
+    margin-right: 30px;
+}
+.product .info-describe .content-list .content-two {
+    margin-right: 36px;
+}
+.product .info-describe .content-list .content-two .col-4,
+.product .info-describe .content-list .content-two .col-8 {
+        padding-right: 4px;
+    padding-left: 4px;
+}
+.product .info-describe h5 {
+    margin-right: 36px;
+}
+
+
+/*end product info*/
+
+/*start related product*/
+.shop {
+    direction: ltr;
+}
+/*end related product*/

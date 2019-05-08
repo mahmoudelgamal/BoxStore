@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>انشاء حساب</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/main-rtl.css">
+	<link rel="stylesheet" href="css/product_info.css">
+	<link rel="stylesheet" href="css/product_info-rtl.css">
+	<link rel="stylesheet" href="css/sign-up.css">
+	<link rel="stylesheet" href="css/sign-up-rtl.css">
+	<link href="https://fonts.googleapis.com/css?family=Cairo:300,400,600,700,900" rel="stylesheet">
+
+
+</head>
+
+<body>
+	<!--start navbar-->
+	<nav class="navbar navbar-expand-md navbar-light bg-light">
+		<div class="container">
+			<a class="navbar-brand" href="index.html">
+				<img src="image/logo.png" alt="logo">
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-r">
+					<li class="nav-item ">
+						<a class="nav-link active" href="log_in.html">تسجيل الدخول <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="profile.html">حسابي</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link " href="about.html">من نحن</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link " href="contact.html">اتصل بنا</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link " href="search.html">
+							<img src="image/search.svg" alt="search">
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link " href="#">
+							<img src="image/wishlist-menu.svg" alt="wishlist">
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link " href="cart.html">
+							<img src="image/cart.svg" alt="cart">
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!--end navbar-->
+
+	<!--start cart-->
+	<section class="sign-up">
+		<div class="container">
+			<div class="title">
+				<h2>انشاء حساب</h2>
+			</div>
+
+			<!--start bread crumb-->
+			<nav aria-label="breadcrumb">
+				<ol class="breadcrumb">
+					<li class="breadcrumb-item"><a href="#"><div class="img"></div></a></li>
+					<li class="breadcrumb-item active arrest-bread" aria-current="page">انشاء حساب</li>
+				</ol>
+			</nav>
+			<!--end bread crumb-->
+			<!--start Sign up container-->
+			<div class="signUp-container">
+				<div class="header">
+					<div class="row">
+						<div class="col-6">
+							<p class="signUp"><a href="#">انشاء حساب</a></p>
+						</div>
+						<div class="col-6">
+							<p class="text-right log-in"><a href="log_in.html">تسجيل الدخول</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="body">
+						<div class="social-media">
+							<div class="row">
+								<div class="col-sm-6">
+									<a href="#" class="facebook">
+										<i class="fab fa-facebook-f"></i> تسجيل الدخول عن طريق الفيسبوك
+									</a>
+								</div>
+								<div class="col-sm-6" >
+									<a href="#" class="google-plus"><i class="fab fa-google-plus-g"></i> تسجيل الدخول عن طريق جوجل بلس</a>
+								</div>
+							</div>
+						</div>
+					<h2 class="or">او</h2>
+					<form>
+						<div class="row">
+							<div class="col-sm-6">
+								<div class="form-group">
+									<label for="usr">الاسم الاول </label>
+									<input type="text" class="form-control" id="usr">
+								</div>
+							</div>
+							<div class="col-sm-6">
+								<div class="form-group">
+									<label for="pwd">اسم العائله</label>
+									<input type="text" class="form-control" id="pwd">
+								</div>
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="pwd">البريد الالكتروني</label>
+							<input type="email" class="form-control" id="pwd">
+						</div>
+						<div class="custom-control custom-radio custom-control-inline">
+							<input type="radio" class="custom-control-input" id="customRadio" name="example" value="customEx">
+							<label class="custom-control-label" for="customRadio">رجل</label>
+						</div>
+						<div class="custom-control custom-radio custom-control-inline">
+							<input type="radio" class="custom-control-input" id="customRadio2" name="example" value="customEx">
+							<label class="custom-control-label" for="customRadio2">انثي</label>
+						</div>
+						<div class="clearfix"></div>
+						<div class="form-group">
+							<label for="sel1" class="country">بلد الاقامه</label>
+							<select class="form-control" id="sel1">
+								<option>cairo</option>
+								<option>2</option>
+								<option>3</option>
+								<option>4</option>
+							</select>
+						</div>
+						<div class="form-group">
+							<label for="pwd">الرقم السري</label>
+							<input type="password" class="form-control" id="pwd">
+						</div>
+						<button type="submit" class="btn">انشاء حساب</button>
+						<p>عندك حساب ؟ <a href="#">تسجيل الدخول</a> </p>
+					</form>
+				</div>
+			</div>
+			<!--end Sign up container-->
+		</div>
+	</section>
+	<!--end cart-->
+	<!--start subscribe-->
+	<section class="subscribe">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8">
+					<div class="row">
+						<div class="col-md-7">
+							<div class="row">
+								<div class="col-4">
+									<img src="image/Mail%20Icon.png">
+								</div>
+								<div class="col-8">
+									<h5>تابعنا</h5>
+									<p>اكتب بريدك الإلكتروني هنا للاشتراك في نشرة بوكس استور</p>
+
+								</div>
+							</div>
+						</div>
+						<div class="col-md-5">
+							<div class="input-group mb-3">
+								<input type="email" class="form-control" placeholder="اكتب بريدك الالكتروني" >
+								<div class="input-group-append">
+									<span class="input-group-text"><img src="image/mail-shape.png"></span>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="right-section">
+						<img src="image/black%20t-shirt.png" class="img-fluid">
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+	<!--end subscribe-->
+	<!--start footer-->
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8">
+					<div class="content">
+						<div class="row">
+							<div class="col-md-4 col-6">
+								<ul class="list-unstyled">
+									<h4>التصنيفات</h4>
+									<li><a href="#">رجالي</a></li>
+									<li><a href="#">حريمي</a></li>
+									<li><a href="#">اطفالي</a></li>
+								</ul>
+							</div>
+							<div class="col-md-4 col-6">
+								<ul class="list-unstyled">
+									<h4>لينكات مختصره</h4>
+									<li><a href="#">من نحن</a></li>
+									<li><a href="#">اتصل بنا</a></li>
+									<li><a href="#">حسابي</a></li>
+									<li><a href="#">تسجل الدخول</a></li>
+									<li><a href="#">عربة التسوق</a></li>
+									<li><a href="#">المفضله</a></li>
+								</ul>
+
+							</div>
+							<div class="col-md-4">
+								<ul class="list-unstyled">
+									<h4>اتصل بنا</h4>
+									<li>العنوان:</li>
+									<li>مدينة نصر , القاهره</li>
+									<li>التليفون:</li>
+									<li>+2010505268</li>
+									<li>البريد الالكتروني:</li>
+									<li>Elgamal.mem@gmail.com</li>
+								</ul>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="copyRight">
+				<div class="row">
+					<div class="col-sm-8">
+						<img src="image/Footer%20logo.png" class="img-fluid">
+						<span>&copy; جميع للحقوق محفوظه لبوكس استور</span>
+					</div>
+					<div class="col-sm-4">
+						<img src="image/visa-mastercard-logo.png" class="img-fluid visa">
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!--end footer-->
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/propper.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

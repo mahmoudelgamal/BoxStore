@@ -1,0 +1,19 @@
+.sign-up .signUp-container .header .log-in a {
+    font-size: 15px;
+	text-align: right
+}
+
+.sign-up .signUp-container .body button {
+	margin-top: 15px;
+	font-weight: bold;
+	font-size: 18px;
+	box-shadow: 2px 2px 16px #e4e2e2, -2px -2px 12px #e4e2e2;
+}
+
+.sign-up .signUp-container .body button.signup {
+	margin-top: 15px;
+	margin-bottom: 30px;
+	background-color: #fff;
+	color: #444;
+}
+

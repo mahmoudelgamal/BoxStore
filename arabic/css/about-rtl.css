@@ -1,0 +1,86 @@
+/*start about*/
+.about .title {
+	background-image: url(../image/arabic/7.png);
+}
+
+.about .about-box-store p {
+	text-align: right;
+	width: 76%;
+}
+
+.about .about-box-store img {
+	left: 4%;
+}
+
+.about .about-box-store p {
+	left: 10%;
+	top: 123px;
+}
+
+.about .png-img {
+	right: 21%;
+}
+
+.about .store-vision .about-store-vision {
+	text-align: right;
+}
+
+.list-unstyled {
+	padding-right: 0;
+}
+
+@media(max-width:1017px) {
+	.about .about-box-store p {
+		left: 16%;
+	}
+}
+
+@media(max-width:767px) {
+	.about .store-vision .about-store-vision {
+		text-align: center;
+	}
+
+	.about .png-img {
+		right: 17%;
+		width: 400px;
+	}
+
+	.about .about-container {
+		height: 640px;
+	}
+}
+
+@media(max-width:530px) {
+	.about .png-img {
+		right: 9%;
+		max-width: 338px;
+		top: 247px;
+	}
+}
+
+@media (max-width: 414px) {
+	.about .png-img {
+		right: 15%;
+		max-width: 272px;
+		top: 340px;
+	}
+
+	.about .about-box-store img {
+		left: 7%;
+	}
+
+}
+
+@media (max-width: 320px) {
+	.about .png-img {
+		right: 10%;
+		max-width: 242px;
+		top: 374px;
+	}
+
+	.about .about-box-store p {
+		left: 16%;
+	}
+}
+
+/*end about*/

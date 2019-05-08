@@ -1,0 +1,71 @@
+/*start payment methode*/
+.payment-methodes .title {
+	background-image: url(../image/profile.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 40px;
+	display: block;
+	margin: 30px auto 15px;
+}
+.payment-methodes .payment-methodes-table {
+	background-color: #f7f7f7;
+	border: 1px solid #d5d5d5;
+	margin-bottom: 18px;
+	box-shadow: 2px 2px 16px #e4e2e2, -2px -2px 12px #e4e2e2;
+	padding-bottom: 33px;
+	text-align: center;
+	min-height: 385px
+}
+
+.payment-methodes .header {
+	padding: 30px 10px 9px;
+	border-bottom: 1px solid #b5b5b5;
+}
+
+.payment-methodes .header h4 {
+	font-size: 20px;
+	font-weight: 400;
+	color: #5c458e;
+	letter-spacing: -.5px;
+}
+
+.payment-methodes .methodes-info {
+	padding: 10px;
+	border-bottom: 1px solid #b5b5b5;
+	font-size: 14px;
+	color: #444;
+}
+
+.payment-methodes button {
+	color: #fff;
+	background-color: #111d37;
+	border: 3px solid #fff;
+	border-radius: 8px;
+	font-size: 14px;
+	padding: 4px 8px;
+	margin-top: 20px;
+}
+
+.payment-methodes .methodes-info img {
+	width: 25px;
+}
+
+.payment-methodes .methodes-info span.action {
+	background-color: #fff;
+	padding: 4px 5px;
+	border-radius: 3px;
+	font-size: 14px;
+	margin-left: 8px;
+	cursor: pointer;
+	box-shadow: 2px 2px 5px #efebeb, -2px -2px 5px #efebeb;
+}
+
+@media(max-width:575px) {
+	.payment-methodes .methodes-info span.action {
+		margin-bottom: 4px;
+		display: block;
+	}
+}
+
+/*start payment methode*/

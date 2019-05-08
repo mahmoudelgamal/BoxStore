@@ -1,0 +1,57 @@
+/*start breadcrumb*/
+.breadcrumb .img {
+	background-image: url(../image/arabic/4.png);
+}
+/*end breadcrumb*/
+/*start contact*/
+.contact .container .title {
+	background-image: url(../image/arabic/2.png);
+}
+.contact .contact-info img.img-png-top {
+	right: auto;
+	left: 7%;
+}
+
+.contact .contact-info ul li img {
+	margin-left: 10px;
+}
+
+.contact .contact-info {
+	text-align: right;
+}
+
+.list-unstyled {
+	padding-right: 0;
+}
+
+.contact .map img.left-img {
+	width: 100%;
+	padding-left: 10px;
+}
+
+@media (max-width: 767px) {
+	.contact .contact-info img.img-png-top {
+		top: -445px;
+	}
+
+	.contact .map img.left-img {
+		padding-left: 0px;
+	}
+}
+
+@media (max-width: 375px) {
+	.contact .contact-info img.img-png-top {
+		top: -439px;
+	}
+	.contact .contact-info ul li {
+    font-size: 14px;
+}
+}
+
+@media (max-width: 320px) {
+	.contact .contact-info img.img-png-top {
+		top: -426px;
+	}
+}
+
+/*end contact*/

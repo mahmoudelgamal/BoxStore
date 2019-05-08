@@ -1,0 +1,40 @@
+body {
+	font-family: 'Cairo', sans-serif;
+}
+
+/*start signup*/
+.sign-up .signUp-container {
+	max-width: 582px;
+}
+
+.sign-up .header .signUp {
+	text-align: right
+}
+
+.sign-up .header .log-in {
+	text-align: left !important
+}
+
+.sign-up .signUp-container .body label {
+	float: right;
+}
+
+.sign-up .custom-control {
+	float: right
+}
+
+.sign-up .social-media .fab {
+	margin-right: 0;
+	margin-left: 7px
+}
+.sign-up .signUp-container .header .log-in a {
+    font-size: 15px;
+}
+@media(max-width:575px) {
+	.sign-up .social-media a {
+		padding: 6px 3px;
+		font-size: 12px;
+	}
+}
+
+/*end signup*/

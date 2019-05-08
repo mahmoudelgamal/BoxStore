@@ -1,0 +1,142 @@
+/*start contact*/
+.contact .container .title {
+	background-image: url(../image/contact-title.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 40px;
+	display: block;
+	margin: 30px auto 15px;
+}
+
+.contact textarea {
+	overflow: auto;
+	resize: vertical;
+	width: 100%;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	text-indent: 7px;
+	color: #707070;
+}
+
+.contact button {
+	float: right;
+	color: #fff;
+	background-color: #111d37;
+	border: 3px solid #fff;
+	border-radius: 9px;
+	padding: 3px 12px;
+}
+
+.contact .contact-info {
+	background-color: #f7f7f7;
+	border: 1px solid #d5d5d5;
+	margin-bottom: 18px;
+	box-shadow: 2px 2px 16px #e4e2e2, -2px -2px 12px #e4e2e2;
+	padding: 19px;
+	position: relative
+}
+
+.contact .contact-info h3 {
+	color: #331c64;
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+.contact .contact-info h3 span {
+	font-weight: 400
+}
+
+.contact .contact-info ul li {
+	margin-bottom: 10px;
+	color: #111d37
+}
+
+.contact .contact-info ul b {
+	font-weight: 500
+}
+
+.contact .contact-info ul li img {
+	margin-right: 10px;
+}
+
+.contact .contact-info img.avatar {
+	height: 142px;
+	margin: auto;
+	display: block;
+}
+
+.contact .contact-info img.img-png-top {
+	position: absolute;
+	top: -152px;
+	right: 7%;
+	height: 150px;
+}
+
+/*start map*/
+.contact .map {
+	border: 1px solid #d5d5d5;
+	margin-top: 52px;
+	margin-bottom: 60px;
+}
+
+.contact .map .row {
+	margin: 0
+}
+
+.contact .map .col-sm-6 {
+	padding: 0
+}
+
+.contact .map img {
+	height: 210px;
+}
+
+.contact .map img.left-img {
+	width: 99%;
+}
+
+@media(max-width:767px) {
+	.contact .contact-info img.img-png-top {
+		top: -433px;
+		height: 116px;
+	}
+
+	.contact .contact-info img.avatar {
+		margin: 20px auto;
+	}
+}
+
+@media(max-width:575px) {
+	.contact .container .title img {
+		margin: 30px auto 28px;
+	}
+
+	.contact .map img {
+		width: 100%
+	}
+
+	.contact .map img.left-img {
+		width: 100%;
+	}
+
+	.contact .contact-info img.img-png-top  {
+		top: -444px;
+	}
+
+}
+
+@media(max-width:320px) {
+	.contact .contact-info img.img-png-top {
+		top: -461px;
+		height: 80px;
+		right: 0%;
+	}
+
+	.contact .contact-info h3 {
+		font-size: 23px;
+	}
+
+}
+
+/*end contact*/

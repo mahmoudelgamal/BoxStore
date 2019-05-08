@@ -1,0 +1,16 @@
+/*start log in*/
+.sign-up .header .signUp {
+	text-align: left !important;
+}
+
+.sign-up .header .log-in {
+	text-align: right !important;
+}
+
+@media(max-width:575px) {
+	.sign-up .password-forget {
+		font-size: 14px
+	}
+}
+
+/*end log in*/

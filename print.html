@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>print</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/product_info.css">
+	<link rel="stylesheet" href="css/check-out.css">
+	<link rel="stylesheet" href="css/print.css">
+
+
+</head>
+
+<body>
+	<!--start navbar-->
+	<nav class="navbar navbar-expand-md navbar-light bg-light">
+		<div class="container">
+			<a class="navbar-brand" href="index.html">
+				<img src="image/logo.png" alt="logo">
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-r">
+					<li class="nav-item ">
+						<a class="nav-link" href="log_in.html">Login <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" href="profile.html">MyAcount</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link " href="#">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link " href="#">Contact</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link " href="search.html">
+							<img src="image/search.svg" alt="search">
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link " href="#">
+							<img src="image/wishlist-menu.svg" alt="wishlist">
+						</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link " href="cart.html">
+							<img src="image/cart.svg" alt="cart">
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!--end navbar-->
+
+	<!--start print-->
+	<section class="print">
+		<div class="container">
+			<div class="title">
+			</div>
+
+			<!--start bread crumb-->
+			<nav aria-label="breadcrumb">
+				<ol class="breadcrumb">
+					<li class="breadcrumb-item"><a href="#"><div class="img"></div></a></li>
+					<li class="breadcrumb-item active arrest-bread" aria-current="page">Print</li>
+				</ol>
+			</nav>
+			<!--end bread crumb-->
+			<!-- start sign up as tutor    -->
+			<section class="sign-up-as-tutor">
+				<div class="sign-up">
+					<div class="container">
+						<!-- multistep form -->
+						<form id="msform">
+							<!-- progressbar -->
+							<ul id="progressbar">
+								<li class="active">Info</li>
+								<li>Style</li>
+								<li>Design</li>
+							</ul>
+							<!-- fieldsets -->
+							<fieldset>
+								<h2 class="fs-title">Client Info</h2>
+								<h3 class="fs-subtitle">Basic Information</h3>
+								<input type="text" name="name" placeholder="Full name" />
+								<input type="text" name="phone" placeholder="Phone" />
+								<input type="email" name="email" placeholder="Email" />
+								<input type="button" name="next" class="next action-button" value="Next" />
+							</fieldset>
+							<fieldset>
+								<h2 class="fs-title">Choose Style</h2>
+								<h3 class="fs-subtitle">pick one from these styles</h3>
+								<div class="choose-style">
+									<div class="row">
+										<div class="col-md-4">
+											<div class="style-card">
+												<img src="image/print/t1.png" class="img-fluid" alt="style1">
+												<h5 class="title">T-shirt</h5>
+											</div>
+										</div>
+										<div class="col-md-4">
+											<div class="style-card">
+												<img src="image/print/t2.png" class="img-fluid" alt="style2">
+												<h5 class="title">T-shirt</h5>
+											</div>
+										</div>
+										<div class="col-md-4">
+											<div class="style-card">
+												<img src="image/print/t3.png" class="img-fluid" alt="style3">
+												<h5 class="title">T-shirt</h5>
+											</div>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-md-4">
+											<div class="style-card">
+												<img src="image/print/t4.png" class="img-fluid" alt="style1">
+												<h5 class="title">T-shirt</h5>
+											</div>
+										</div>
+										<div class="col-md-4">
+											<div class="style-card">
+												<img src="image/print/t5.png" class="img-fluid" alt="style2">
+												<h5 class="title">T-shirt</h5>
+											</div>
+										</div>
+										<div class="col-md-4">
+											<div class="style-card">
+												<img src="image/print/t6.png" class="img-fluid" alt="style3">
+												<h5 class="title">T-shirt</h5>
+											</div>
+										</div>
+									</div>
+								</div>
+								<input type="button" name="previous" class="previous action-button" value="Previous" />
+								<input type="button" name="next" class="next action-button" value="Next" />
+							</fieldset>
+							<fieldset>
+								<h2 class="fs-title">Design</h2>
+								<h3 class="fs-subtitle">Select details of the design</h3>
+								<div class="design-details">
+									<div class="row">
+										<div class="col-md-3">
+											<h5 class="title">Quantity</h5>
+										</div>
+										<div class="col-md-9">
+											<div class="select-number">
+												<span class="mins"><i class="fas fa-minus"></i></span>
+												<span class="number"><input style="margin: 0;border-bottom: 0;border-top: 0;border-radius: 0" type="text" class="form-control" id="usr" value="1"></span>
+												<span class="plus"><i class="fas fa-plus"></i></span>
+											</div>
+
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-md-3">
+											<h5 class="title">Color</h5>
+										</div>
+										<div class="col-md-9">
+											<div class="s-color">
+												<span class="color-box red"></span>
+												<span class="color-box orange"></span>
+												<span class="color-box blue"></span>
+											</div>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-md-3">
+											<h5 class="title">Description</h5>
+										</div>
+										<div class="col-md-9">
+											<div class="form-group">
+												<textarea class="form-control" style="width: 80%" rows="4" id="comment"></textarea>
+											</div>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-md-3">
+											<h5 class="title">Uploud Design</h5>
+										</div>
+										<div class="col-md-9">
+											<input type="file">
+										</div>
+									</div>
+								</div>
+								<input type="button" name="previous" class="previous action-button" value="Previous" />
+								<input type="submit" name="submit" class="submit action-button" value="Submit" />
+							</fieldset>
+						</form>
+					</div>
+				</div>
+			</section>
+
+			<!--end sign up as tutor  -->
+
+		</div>
+	</section>
+	<!--end print-->
+
+	<!--start subscribe-->
+	<section class="subscribe">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8">
+					<div class="row">
+						<div class="col-md-7">
+							<div class="row">
+								<div class="col-4">
+									<img src="image/Mail%20Icon.png">
+								</div>
+								<div class="col-8">
+									<h5>Subscribe</h5>
+									<p>subscribe to our maling list to get the updates to your email box</p>
+
+								</div>
+							</div>
+						</div>
+						<div class="col-md-5">
+							<div class="input-group mb-3">
+								<input type="email" class="form-control" placeholder="Your Email">
+								<div class="input-group-append">
+									<span class="input-group-text"><img src="image/mail-shape.png"></span>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="right-section">
+						<img src="image/black%20t-shirt.png" class="img-fluid">
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+	<!--end subscribe-->
+
+	<!--start footer-->
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8">
+					<div class="row">
+						<div class="col-md-3 col-6">
+							<ul class="list-unstyled">
+								<h4>Categories</h4>
+								<li><a href="#">Men</a></li>
+								<li><a href="#">Women</a></li>
+								<li><a href="#">Kids</a></li>
+							</ul>
+						</div>
+						<div class="col-md-3 col-6">
+							<ul class="list-unstyled">
+								<h4>ShotcutLinks</h4>
+								<li><a href="#">About Us</a></li>
+								<li><a href="#">Contact Us</a></li>
+								<li><a href="#">My Acvount</a></li>
+								<li><a href="#">Login</a></li>
+								<li><a href="#">Cart</a></li>
+								<li><a href="#">MyWishlist</a></li>
+							</ul>
+
+						</div>
+						<div class="col-md-3">
+							<ul class="list-unstyled">
+								<h4>ContactUs</h4>
+								<li>Address:</li>
+								<li>New Cairo ,Egypt</li>
+								<li>Phone:</li>
+								<li>+2010505268</li>
+								<li>Email:</li>
+								<li>Elgamal.mem@gmail.com</li>
+							</ul>
+
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="copyRight">
+				<div class="row">
+					<div class="col-sm-8">
+						<img src="image/Footer%20logo.png" class="img-fluid">
+						<span>&copy; Copyright 2018 Boxstore All Right Resrved</span>
+					</div>
+					<div class="col-sm-4">
+						<img src="image/visa-mastercard-logo.png" class="img-fluid visa">
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<!--end footer-->
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/propper.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/mdb.min.js"></script>
+	<script src="js/print.js"></script>
+	<script src="js/product-info.js"></script>
+</body>
+
+</html>

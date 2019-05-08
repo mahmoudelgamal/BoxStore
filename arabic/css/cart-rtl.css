@@ -1,0 +1,36 @@
+/*start cart*/
+.cart .title-img {
+	background-image: url(../image/arabic/5.png);
+}
+.cart {
+	text-align: right
+}
+
+.cart .product-item .head {
+	padding: 17px 14px 10px 2px;
+	text-align: right;
+}
+
+.cart .summary .title {
+	padding: 17px 17px 7px 0;
+}
+
+.cart .summary .price-detail,
+.cart .summary .price-total {
+	padding: 12px 17px 0px 0px;
+}
+
+@media(max-width:767px) {
+
+	.cart .product-item .s-ml {
+		margin-right: 77px;
+		margin-left: 0
+	}
+
+	.cart .product-item .s-ml-sub {
+		margin-right: 36px;
+	}
+
+}
+
+/*end cart*/

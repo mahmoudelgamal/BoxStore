@@ -1,0 +1,76 @@
+/*start order*/
+.order .order-container {
+	margin-bottom: 50px;
+}
+
+.order .orders-info {
+	background-color: #f7f7f7;
+	border: 1px solid #d5d5d5;
+	margin-bottom: 18px;
+	box-shadow: 2px 2px 16px #e4e2e2, -2px -2px 12px #e4e2e2;
+	padding-bottom: 33px;
+}
+
+.order .orders-info {
+	text-align: center;
+	min-height: 385px;
+}
+
+.order .orders-info .header {
+	padding: 30px 10px 9px;
+	border-bottom: 1px solid #b5b5b5;
+}
+
+.order .orders-info .header h4 {
+	font-size: 20px;
+	font-weight: 400;
+	color: #5c458e;
+	letter-spacing: -.5px;
+}
+
+.order .orders-info .order-item-info {
+	padding: 10px;
+	border-bottom: 1px solid #b5b5b5;
+}
+
+.order .orders-info .order-item-info p {
+	margin-bottom: 0;
+	font-size: 15px;
+	color: #444;
+}
+
+.order .orders-info .order-item-info span {
+	background-color: #fff;
+	padding: 2px 3px;
+	border-radius: 3px;
+	font-size: 14px;
+	margin-left: 4px;
+	cursor: pointer;
+	box-shadow: 2px 2px 5px #efebeb, -2px -2px 5px #efebeb;
+}
+.order .orders-info .order-item-info span a {
+    color: #444;
+    text-decoration: none;
+}
+.order .orders-info .order-item-info button {
+    background: transparent;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    color: #444;
+}
+.order .orders-info .order-item-info button:focus {
+	outline: 0
+}
+
+@media(max-width:450px) {
+	.order .orders-info .order-item-info p {
+		font-size: 13px;
+	}
+	.order .orders-info .order-item-info span {
+		display: block;
+		margin-bottom: 5px
+	}
+}
+
+/*end order*/

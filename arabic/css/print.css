@@ -1,0 +1,358 @@
+/*start bread crumb*/
+
+.breadcrumb {
+	background-color: #f2f2f2;
+	margin-top: 30px;
+	margin-bottom: 100px;
+}
+
+.breadcrumb .arrest-bread {
+	color: #111d37;
+	font-weight: 500
+}
+
+/*end bread crumb*/
+.print .title {
+	background-image: url(../image/print.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 40px;
+	display: block;
+	margin: 30px auto 15px;
+}
+/*start multi stepper*/
+/*form styles*/
+#msform {
+	width: auto;
+	min-height: 530px;
+	margin: -50px auto 50px;
+	text-align: center;
+	position: relative;
+	font-family: 'Open Sans', sans-serif !important;
+
+}
+
+#msform fieldset {
+	background: #F7F7F7;
+	border: 0 none;
+	border-radius: 3px;
+	box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+	padding: 20px 30px;
+	box-sizing: border-box;
+	width: 100%;
+	margin: 44px 0;
+	position: relative;
+}
+
+/*Hide all except first fieldset*/
+#msform fieldset:not(:first-of-type) {
+	display: none;
+}
+
+/*inputs*/
+#msform input,
+#msform textarea {
+	padding: 9px;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	margin-bottom: 10px;
+	width: 100%;
+	box-sizing: border-box;
+	color: #2C3E50;
+	font-size: 13px;
+}
+
+/*buttons*/
+#msform .action-button {
+	width: 100px;
+	background: #331c64;
+	font-weight: bold;
+	color: white;
+	border: 0 none;
+	border-radius: 1px;
+	cursor: pointer;
+	padding: 9px 12px 9px 5px;
+	margin: 10px 5px;
+	display: inline;
+	text-align: center;
+	float: left;
+}
+
+#msform .action-button:hover,
+#msform .action-button:focus {
+	box-shadow: 0 0 0 2px white, 0 0 0 3px #27AE60;
+}
+
+/*headings*/
+.fs-title {
+	font-size: 20px;
+	font-weight: 600;
+	text-transform: capitalize;
+	color: #444;
+	margin-bottom: 10px;
+	text-align: left
+}
+
+.fs-subtitle {
+	font-weight: normal;
+	font-size: 13px;
+	color: #666;
+	margin-bottom: 20px;
+	text-align: left
+}
+
+/*progressbar*/
+#progressbar {
+	margin-bottom: 30px;
+	overflow: hidden;
+	/*CSS counters to number the steps*/
+	counter-reset: step;
+}
+
+#progressbar li {
+	list-style-type: none;
+	color: #444;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 600;
+	width: 33.33%;
+	float: left;
+	position: relative;
+	bottom: -9px;
+	height: 70px;
+	text-align: center;
+}
+
+#progressbar li:before {
+	content: counter(step);
+	counter-increment: step;
+	width: 35px;
+	padding: 7px 12px;
+	line-height: 20px;
+	display: block;
+	font-size: 14px;
+	color: #fff;
+	background: #828282;
+	margin: 0 auto 5px auto;
+	position: relative;
+	bottom: 6px;
+	border-radius: 50%;
+}
+
+/*progressbar connectors*/
+#progressbar li:after {
+	content: '';
+	width: 100%;
+	height: 2px;
+	background: #828282;
+	color: #fff;
+	position: absolute;
+	left: -50%;
+	top: 9px;
+	z-index: -1;
+	/*put it behind the numbers*/
+}
+
+#progressbar li:first-child:after {
+	/*connector not needed before the first step*/
+	content: none;
+}
+
+/*marking active/completed steps green*/
+/*The number of the step and the connector before it = green*/
+#progressbar li.active:before,
+#progressbar li.active:after {
+	background: #331c64;
+	color: white;
+}
+
+/*end multi stepper*/
+*start customize*/ .sign-up h2 {
+	margin-top: 18px;
+	color: #444;
+}
+
+.sign-up .setup-content-2 h3 {
+	font-weight: lighter;
+	color: #444
+}
+
+.sign-up .custom-file {
+	margin-bottom: 10px;
+	text-align: left
+}
+
+.sign-up .custom-file:focus {
+	outline: 0
+}
+
+/*start student*/
+.form-check {
+	text-align: left
+}
+
+.terms {
+	text-align: left;
+	background-color: #f7f9fb;
+	padding: 11px 7px 0;
+}
+
+/*end student*/
+@media(max-width:991px) {
+	#msform {
+		width: 650px;
+	}
+}
+
+@media(max-width:767px) {
+	#msform {
+		max-width: 500px;
+	}
+}
+
+/*start fieldset 2 style*/
+.print .choose-style .style-card {
+    background-color: #fff;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 4px;
+    margin-bottom: 25px;
+    
+}
+.print .choose-style .active {
+	border: 3px solid #331c64;
+}
+.print .choose-style .style-card .title {
+    margin-top: 7px;
+    color: #444;
+}
+/*start fieldset 2 style*/
+
+/*start fieldset 3 desig*/
+.print .design-details .title {
+    font-size: 15px;
+    font-weight: 600;
+    color: #5f5f5f;
+    margin-bottom: 21px;
+}
+
+.print .design-details .select-number {
+	color: #676767;
+	border: 3px solid #fff;
+	border-radius: 10px;
+	background-color: #efefef;
+	padding: 0px 2px;
+	text-align: center;
+	width: 90px;
+}
+
+.print .design-details .select-number .number {
+	padding-right: 0;
+	padding-left: 0;
+	margin-left: 4px;
+	margin-right: 4px;
+	width: 45px;
+}
+
+.print .design-details .select-number .number {
+	display: inline-block;
+}
+
+.print .design-details .select-number span input {
+	display: inline;
+    background-color: #efefef;
+    height: 28px;
+    border-top: 0;
+    border-bottom: 0;
+	border-radius: 0;
+    text-align: center;
+	margin: 0 !importatnt
+}
+
+.print .design-details .select-number span input:focus {
+	outline: 0;
+	color: #495057;
+	border-color: #d6d2d2;
+	box-shadow: none;
+	background-color:#fff
+}
+
+.print .design-details .select-number .mins,
+.print .design-details .select-number .plus {
+	cursor: pointer;
+	font-size: 10px;
+	color: #7c7b7b;
+}
+
+.print .design-details .select-number .mins:hover,
+.print .design-details .select-number .plus:hover {
+	color: #444;
+}
+
+.print .design-details .s-color {
+	width: 93px;
+}
+
+.print .design-details .s-color .color-box {
+	text-align: center;
+	width: 20px;
+	height: 20px;
+	background-color: red;
+	display: inline-block;
+	border-radius: 50%;
+	border: 3px solid #fff;
+	cursor: pointer;
+}
+
+.print .design-details .s-color .red {
+	background-color: red
+}
+
+.print .design-details .s-color .orange {
+	background-color: #ff8400
+}
+
+.print .design-details .s-color .blue {
+	background-color: #3c7cf2
+}
+.custom-input-file {
+	border-radius: 4px;
+	margin-bottom: 10px;
+	position: relative;
+	padding: 8px;
+	background-color: #331c64;
+	width: 180px
+}
+
+.custom-input-file span {
+    text-align: left;
+    display: block;
+    color: #fff;
+    font-size: 15px;
+    overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.custom-input-file .fa-upload {
+	position: absolute;
+	top: 10px;
+	left: 89%;
+	color: #fff;
+	z-index: 1;
+}
+
+.custom-input-file input[type='file'] {
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 2
+}
+
+
+/*end fieldset 3 desig*/
+/*end customize*/
